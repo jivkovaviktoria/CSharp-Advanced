@@ -1,4 +1,7 @@
-﻿namespace ReversedStrings
+﻿using System;
+using System.Collections.Generic;
+
+namespace ReversedStrings
 {
     internal class Program
     {
