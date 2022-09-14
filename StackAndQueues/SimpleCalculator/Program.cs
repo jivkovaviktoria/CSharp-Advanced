@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -8,23 +9,26 @@ namespace SimpleCalculator
     {
         static void Main(string[] args)
         {
-            Queue<string> queue = new Queue<string>();
+            var operations = Console.ReadLine().Split().ToArray();
+            var stack = new Stack<string>(operations.Reverse());
 
-            string name = Console.ReadLine();
-            while(name!="End")
+            int ans = int.Parse(stack.Pop());
+            while (stack.Count > 0)
             {
-                if (name != "Paid")
-                    queue.Enqueue(name);
-                else
+                if (stack.Peek() == "+")
                 {
-                    Console.WriteLine(string.Join(Environment.NewLine, queue));
-                    queue.Clear();
+                    stack.Pop();
+                    ans += int.Parse(stack.Pop());
                 }
-
-                name = Console.ReadLine();
+                else if(stack.Peek() == "-")
+                {
+                    stack.Pop();
+                    ans -= int.Parse(stack.Pop());
+                }
             }
 
-            Console.WriteLine(queue.Count);
+            Console.WriteLine(ans);
+              
         }
     }
 }
