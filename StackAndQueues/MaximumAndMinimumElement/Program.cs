@@ -24,9 +24,15 @@ namespace MaximumAndMinimumElement
                 else if (operation == 2)
                     stack.pop();
                 else if (operation == 3)
-                    Console.WriteLine(stack.getMax());
+                {
+                    if (stack.getMax() != null)
+                        Console.WriteLine(stack.getMax());
+                }
                 else if (operation == 4)
-                    Console.WriteLine(stack.getMin());
+                {
+                    if(stack.getMin() != null)
+                        Console.WriteLine(stack.getMin());
+                }
             }
 
             stack.Print();
@@ -63,14 +69,20 @@ namespace MaximumAndMinimumElement
             trackStackMin.Push(trackStackMin.Peek());
         }
 
-        public int getMax()
+        public int? getMax()
         {
-            return trackStackMax.Peek();
+            if(trackStackMax.Count > 0) 
+                return trackStackMax.Peek();
+
+            return null;
         }
 
-        public int getMin() 
+        public int? getMin() 
         { 
-            return trackStackMin.Peek(); 
+            if(trackStackMin.Count > 0)
+                return trackStackMin.Peek();
+
+            return null;
         }
         
 
