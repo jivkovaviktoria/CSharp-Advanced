@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicStackOperations", "Bas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicQueueOperations", "BasicQueueOperations\BasicQueueOperations.csproj", "{5C824E7C-16C6-441D-A453-8CE50EABBCAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumAndMinimumElement", "MaximumAndMinimumElement\MaximumAndMinimumElement.csproj", "{0AAEB44A-C315-47B3-A067-497E6D37E69C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumAndMinimumElement", "MaximumAndMinimumElement\MaximumAndMinimumElement.csproj", "{0AAEB44A-C315-47B3-A067-497E6D37E69C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CupsAndBottles", "CupsAndBottles\CupsAndBottles.csproj", "{641DC579-9AC2-40EB-BBFF-AE302A1BBB8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{0AAEB44A-C315-47B3-A067-497E6D37E69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AAEB44A-C315-47B3-A067-497E6D37E69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AAEB44A-C315-47B3-A067-497E6D37E69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641DC579-9AC2-40EB-BBFF-AE302A1BBB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641DC579-9AC2-40EB-BBFF-AE302A1BBB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641DC579-9AC2-40EB-BBFF-AE302A1BBB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641DC579-9AC2-40EB-BBFF-AE302A1BBB8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
