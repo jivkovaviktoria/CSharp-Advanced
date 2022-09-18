@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumMatrixElements", "SumMatrixElements\SumMatrixElements.csproj", "{7851CE23-010A-448D-89C5-B81608977A44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumMatrixElements", "SumMatrixElements\SumMatrixElements.csproj", "{7851CE23-010A-448D-89C5-B81608977A44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumMatrixColumns", "SumMatrixColumns\SumMatrixColumns.csproj", "{6CB54EB3-216D-4A21-B057-C1401722CD0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumMatrixColumns", "SumMatrixColumns\SumMatrixColumns.csproj", "{6CB54EB3-216D-4A21-B057-C1401722CD0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaryDIagonal", "PrimaryDIagonal\PrimaryDIagonal.csproj", "{1C7B1E93-5F44-4569-B115-B53DD7940472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimaryDIagonal", "PrimaryDIagonal\PrimaryDIagonal.csproj", "{1C7B1E93-5F44-4569-B115-B53DD7940472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolInMatrix", "SymbolInMatrix\SymbolInMatrix.csproj", "{7A9ECAB3-047A-4077-B8DA-6E7AB7D7428C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1C7B1E93-5F44-4569-B115-B53DD7940472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C7B1E93-5F44-4569-B115-B53DD7940472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C7B1E93-5F44-4569-B115-B53DD7940472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9ECAB3-047A-4077-B8DA-6E7AB7D7428C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9ECAB3-047A-4077-B8DA-6E7AB7D7428C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9ECAB3-047A-4077-B8DA-6E7AB7D7428C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9ECAB3-047A-4077-B8DA-6E7AB7D7428C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
