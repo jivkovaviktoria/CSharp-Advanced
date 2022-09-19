@@ -9,6 +9,14 @@ namespace BaristaContest
     {
         static void Main(string[] args)
         {
+            Dictionary<int, string> beverageSetup = new Dictionary<int, string>();
+            beverageSetup[50] = "Cortado";
+            beverageSetup[75] = "Espresso";
+            beverageSetup[100] = "Capuccino";
+            beverageSetup[150] = "Americano";
+            beverageSetup[200] = "Latte";
+
+
             int[] coffeeArray = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
             Array.Reverse(coffeeArray);
             Stack<int> coffee = new Stack<int>(coffeeArray);
@@ -23,53 +31,29 @@ namespace BaristaContest
                 var currentCoffee = coffee.Pop();
                 var currentMilk = milk.Pop();
 
-                if (currentCoffee + currentMilk == 50)
+                var currentSum = currentCoffee + currentMilk;
+                if (beverageSetup.ContainsKey(currentSum))
                 {
-                    if (!drinks.ContainsKey("Cortado")) drinks.Add("Cortado", 1);
-                    else drinks["Cortado"]++;
-                }
-                else if (currentCoffee + currentMilk == 75)
-                {
-                    if (!drinks.ContainsKey("Espresso")) drinks.Add("Espresso", 1);
-                    else drinks["Espresso"]++;
-                }
-                else if (currentCoffee + currentMilk == 100)
-                {
-                    if (!drinks.ContainsKey("Capuccino")) drinks.Add("Capuccino", 1);
-                    else drinks["Capuccino"]++;
-                }
-                else if (currentCoffee + currentMilk == 150)
-                {
-                    if (!drinks.ContainsKey("Americano")) drinks.Add("Americano", 1);
-                    else drinks["Americano"]++;
-                }
-                else if (currentCoffee + currentMilk == 200)
-                {
-                    if (!drinks.ContainsKey("Latte")) drinks.Add("Latte", 1);
-                    else drinks["Latte"]++;
+                    string beverageName = beverageSetup[currentSum];
+                    if (!drinks.ContainsKey(beverageName)) drinks.Add(beverageName, 1);
+                    else drinks[beverageName]++;
                 }
                 else milk.Push(currentMilk - 5);
             }
 
             if (coffee.Count == 0 && milk.Count == 0)
-            {
                 Console.WriteLine("Nina is going to win! She used all the coffee and milk!");
-                Console.WriteLine("Coffee left: none");
-                Console.WriteLine("Milk left: none");
-            }
             else
-            {
                 Console.WriteLine("Nina needs to exercise more! She didn't use all the coffee and milk!");
-                if (coffee.Count > 0) Console.WriteLine($"Coffee left: {string.Join(", ", coffee)}");
-                else Console.WriteLine("Coffee left: none");
 
-                if (milk.Count > 0) Console.WriteLine($"Milk left: {string.Join(", ", milk)}");
-                else Console.WriteLine("Milk left: none");
-            }
+            if (coffee.Count > 0) Console.WriteLine($"Coffee left: {string.Join(", ", coffee)}");
+            else Console.WriteLine("Coffee left: none");
 
-            foreach (var drink in drinks.OrderBy(x => x.Value).ThenByDescending(x => x.Key))
-                Console.WriteLine($"{drink.Key}: {drink.Value}");
-            
+            if (milk.Count > 0) Console.WriteLine($"Milk left: {string.Join(", ", milk)}");
+            else Console.WriteLine("Milk left: none");
+
+            var ordered = drinks.OrderBy(x => x.Value).ThenByDescending(x => x.Key);
+            foreach (var drink in ordered) Console.WriteLine($"{drink.Key}: {drink.Value}");
         }
     }
 }
