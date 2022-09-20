@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquaresInMatrix", "SquaresI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximalSum", "MaximalSum\MaximalSum.csproj", "{609BBA09-F6FF-44EE-94F8-8F4ED9DF8BBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioactiveMutantVampireBunnies", "RadioactiveMutantVampireBunnies\RadioactiveMutantVampireBunnies.csproj", "{35E992D6-F78E-4855-8208-2FE9E9AE1EB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{609BBA09-F6FF-44EE-94F8-8F4ED9DF8BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{609BBA09-F6FF-44EE-94F8-8F4ED9DF8BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{609BBA09-F6FF-44EE-94F8-8F4ED9DF8BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E992D6-F78E-4855-8208-2FE9E9AE1EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E992D6-F78E-4855-8208-2FE9E9AE1EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E992D6-F78E-4855-8208-2FE9E9AE1EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E992D6-F78E-4855-8208-2FE9E9AE1EB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
