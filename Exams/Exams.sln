@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaContest", "BaristaCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpAMole", "HelpAMole\HelpAMole.csproj", "{8FBAB27C-48D8-4877-BC76-72FBB95DE73F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TilesMaster", "TilesMaster\TilesMaster.csproj", "{E52DE159-FE78-45A8-86C4-DB084E98B611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TilesMaster", "TilesMaster\TilesMaster.csproj", "{E52DE159-FE78-45A8-86C4-DB084E98B611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealPlan", "MealPlan\MealPlan.csproj", "{CA42115D-F399-44CC-BAC2-2FA43EAF4D6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E52DE159-FE78-45A8-86C4-DB084E98B611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E52DE159-FE78-45A8-86C4-DB084E98B611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E52DE159-FE78-45A8-86C4-DB084E98B611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA42115D-F399-44CC-BAC2-2FA43EAF4D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA42115D-F399-44CC-BAC2-2FA43EAF4D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA42115D-F399-44CC-BAC2-2FA43EAF4D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA42115D-F399-44CC-BAC2-2FA43EAF4D6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
