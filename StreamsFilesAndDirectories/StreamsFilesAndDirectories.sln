@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\Word
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeFiles", "MergeFiles\MergeFiles.csproj", "{B164C860-8C7E-4357-8853-0A1A5CC91297}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderSize", "FolderSize\FolderSize.csproj", "{805DA8FC-F7F8-449B-B4C9-2ABC76AB502E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractSpecialBytes", "ExtractSpecialBytes\ExtractSpecialBytes.csproj", "{5F318536-7F2D-4D93-844A-CB5A70745908}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B164C860-8C7E-4357-8853-0A1A5CC91297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B164C860-8C7E-4357-8853-0A1A5CC91297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B164C860-8C7E-4357-8853-0A1A5CC91297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805DA8FC-F7F8-449B-B4C9-2ABC76AB502E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805DA8FC-F7F8-449B-B4C9-2ABC76AB502E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805DA8FC-F7F8-449B-B4C9-2ABC76AB502E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805DA8FC-F7F8-449B-B4C9-2ABC76AB502E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F318536-7F2D-4D93-844A-CB5A70745908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F318536-7F2D-4D93-844A-CB5A70745908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F318536-7F2D-4D93-844A-CB5A70745908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F318536-7F2D-4D93-844A-CB5A70745908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
