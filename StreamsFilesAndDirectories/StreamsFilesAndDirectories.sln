@@ -5,13 +5,15 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineNumber", "LineNumber\LineNumber.csproj", "{0BE531A0-1FD8-4751-8024-FBC7283B714C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{9AD3F2E0-BCF9-41A8-B094-E03EBCF64D3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCount", "WordCount\WordCount.csproj", "{9AD3F2E0-BCF9-41A8-B094-E03EBCF64D3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeFiles", "MergeFiles\MergeFiles.csproj", "{B164C860-8C7E-4357-8853-0A1A5CC91297}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeFiles", "MergeFiles\MergeFiles.csproj", "{B164C860-8C7E-4357-8853-0A1A5CC91297}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderSize", "FolderSize\FolderSize.csproj", "{805DA8FC-F7F8-449B-B4C9-2ABC76AB502E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolderSize", "FolderSize\FolderSize.csproj", "{805DA8FC-F7F8-449B-B4C9-2ABC76AB502E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractSpecialBytes", "ExtractSpecialBytes\ExtractSpecialBytes.csproj", "{5F318536-7F2D-4D93-844A-CB5A70745908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractSpecialBytes", "ExtractSpecialBytes\ExtractSpecialBytes.csproj", "{5F318536-7F2D-4D93-844A-CB5A70745908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenLines", "EvenLines\EvenLines.csproj", "{9DBED408-48E4-474E-A338-C619B18380DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5F318536-7F2D-4D93-844A-CB5A70745908}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F318536-7F2D-4D93-844A-CB5A70745908}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F318536-7F2D-4D93-844A-CB5A70745908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DBED408-48E4-474E-A338-C619B18380DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBED408-48E4-474E-A338-C619B18380DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBED408-48E4-474E-A338-C619B18380DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBED408-48E4-474E-A338-C619B18380DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
