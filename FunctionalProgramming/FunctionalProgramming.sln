@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortEvenNumber", "SortEvenNumber\SortEvenNumber.csproj", "{210350FF-D377-4874-817B-EB5907F4FACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortEvenNumber", "SortEvenNumber\SortEvenNumber.csproj", "{210350FF-D377-4874-817B-EB5907F4FACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumNumbers", "SumNumbers\SumNumbers.csproj", "{6BB7393F-482C-4020-9C66-41C44D71BC81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{210350FF-D377-4874-817B-EB5907F4FACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{210350FF-D377-4874-817B-EB5907F4FACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{210350FF-D377-4874-817B-EB5907F4FACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB7393F-482C-4020-9C66-41C44D71BC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB7393F-482C-4020-9C66-41C44D71BC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB7393F-482C-4020-9C66-41C44D71BC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB7393F-482C-4020-9C66-41C44D71BC81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
