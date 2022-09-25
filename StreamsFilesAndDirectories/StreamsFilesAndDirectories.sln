@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolderSize", "FolderSize\Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractSpecialBytes", "ExtractSpecialBytes\ExtractSpecialBytes.csproj", "{5F318536-7F2D-4D93-844A-CB5A70745908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenLines", "EvenLines\EvenLines.csproj", "{9DBED408-48E4-474E-A338-C619B18380DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenLines", "EvenLines\EvenLines.csproj", "{9DBED408-48E4-474E-A338-C619B18380DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineNumbers", "LineNumbers\LineNumbers.csproj", "{593C49BB-3DD6-4C2D-B2CA-B6794591ED16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{9DBED408-48E4-474E-A338-C619B18380DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DBED408-48E4-474E-A338-C619B18380DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DBED408-48E4-474E-A338-C619B18380DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593C49BB-3DD6-4C2D-B2CA-B6794591ED16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593C49BB-3DD6-4C2D-B2CA-B6794591ED16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593C49BB-3DD6-4C2D-B2CA-B6794591ED16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593C49BB-3DD6-4C2D-B2CA-B6794591ED16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
