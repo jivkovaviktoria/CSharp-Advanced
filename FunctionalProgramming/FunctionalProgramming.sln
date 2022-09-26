@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumNumbers", "SumNumbers\Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountUppercaseWords", "CountUppercaseWords\CountUppercaseWords.csproj", "{56BFE961-D5B0-4E54-8369-8C7165E56F1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddVAT", "AddVAT\AddVAT.csproj", "{BDC8DCC7-7306-4D65-B33A-C20966C30310}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{56BFE961-D5B0-4E54-8369-8C7165E56F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56BFE961-D5B0-4E54-8369-8C7165E56F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56BFE961-D5B0-4E54-8369-8C7165E56F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC8DCC7-7306-4D65-B33A-C20966C30310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC8DCC7-7306-4D65-B33A-C20966C30310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC8DCC7-7306-4D65-B33A-C20966C30310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC8DCC7-7306-4D65-B33A-C20966C30310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
