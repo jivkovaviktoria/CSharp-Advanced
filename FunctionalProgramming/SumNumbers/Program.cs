@@ -16,6 +16,8 @@ namespace SumNumbers
     {
         public static int SumNumbers(this int[] collection)
         {
+            //Returns the sum of the numbers in the collection.
+
             var result = 0;
 
             foreach (var item in collection)
@@ -26,6 +28,8 @@ namespace SumNumbers
 
         public static int CountNumbers(this int[] collection)
         {
+            //Returns the count of the numbers in the collection.
+
             var result = 0;
 
             foreach (var item in collection)

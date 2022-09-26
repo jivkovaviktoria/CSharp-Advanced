@@ -21,6 +21,8 @@ namespace SortEvenNumber
     {
         public static List<int> SortEven(this int[] collection)
         {
+            //Returns a collection only with the even numbers from the input.
+
             var result = new List<int>();
 
             foreach(var item in collection)
