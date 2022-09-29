@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpAMole", "HelpAMole\Help
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TilesMaster", "TilesMaster\TilesMaster.csproj", "{E52DE159-FE78-45A8-86C4-DB084E98B611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealPlan", "MealPlan\MealPlan.csproj", "{CA42115D-F399-44CC-BAC2-2FA43EAF4D6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealPlan", "MealPlan\MealPlan.csproj", "{CA42115D-F399-44CC-BAC2-2FA43EAF4D6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruffleHunter", "TruffleHunter\TruffleHunter.csproj", "{89ECD199-C250-4D69-BFF7-F241B34D1304}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruffleHunter", "TruffleHunter\TruffleHunter.csproj", "{89ECD199-C250-4D69-BFF7-F241B34D1304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blacksmith", "Blacksmith\Blacksmith.csproj", "{1A236E43-D2B8-42E4-8073-9DE46C7CBE25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{89ECD199-C250-4D69-BFF7-F241B34D1304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89ECD199-C250-4D69-BFF7-F241B34D1304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89ECD199-C250-4D69-BFF7-F241B34D1304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A236E43-D2B8-42E4-8073-9DE46C7CBE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A236E43-D2B8-42E4-8073-9DE46C7CBE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A236E43-D2B8-42E4-8073-9DE46C7CBE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A236E43-D2B8-42E4-8073-9DE46C7CBE25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
