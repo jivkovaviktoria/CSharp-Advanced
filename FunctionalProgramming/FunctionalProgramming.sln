@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddVAT", "AddVAT\AddVAT.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterByAge", "FilterByAge\FilterByAge.csproj", "{9E5245F2-C1FB-466A-A2B2-05D2C8CF83F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMinFunction", "CustomMinFunction\CustomMinFunction.csproj", "{4109D09B-B2EC-43D1-96DD-471198CE922B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomMinFunction", "CustomMinFunction\CustomMinFunction.csproj", "{4109D09B-B2EC-43D1-96DD-471198CE922B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMinFunction(exMethod)", "CustomMinFunction(exMethod)\CustomMinFunction(exMethod).csproj", "{ED0112A1-AA17-4BF1-9F95-F838AAF1E8EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomMinFunction(exMethod)", "CustomMinFunction(exMethod)\CustomMinFunction(exMethod).csproj", "{ED0112A1-AA17-4BF1-9F95-F838AAF1E8EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindEvenOrOdds", "FindEvenOrOdds\FindEvenOrOdds.csproj", "{DC9E1C8F-D7F8-47DD-9F90-07F2B6CBD57B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindEvenOrOdds", "FindEvenOrOdds\FindEvenOrOdds.csproj", "{DC9E1C8F-D7F8-47DD-9F90-07F2B6CBD57B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionPoint", "ActionPoint\ActionPoint.csproj", "{53D2044C-659F-4772-9D52-9E1853B305C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{DC9E1C8F-D7F8-47DD-9F90-07F2B6CBD57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC9E1C8F-D7F8-47DD-9F90-07F2B6CBD57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC9E1C8F-D7F8-47DD-9F90-07F2B6CBD57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D2044C-659F-4772-9D52-9E1853B305C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D2044C-659F-4772-9D52-9E1853B305C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D2044C-659F-4772-9D52-9E1853B305C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D2044C-659F-4772-9D52-9E1853B305C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
