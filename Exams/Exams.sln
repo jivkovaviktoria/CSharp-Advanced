@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealPlan", "MealPlan\MealPl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruffleHunter", "TruffleHunter\TruffleHunter.csproj", "{89ECD199-C250-4D69-BFF7-F241B34D1304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blacksmith", "Blacksmith\Blacksmith.csproj", "{1A236E43-D2B8-42E4-8073-9DE46C7CBE25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blacksmith", "Blacksmith\Blacksmith.csproj", "{1A236E43-D2B8-42E4-8073-9DE46C7CBE25}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armory", "Armory\Armory.csproj", "{616123FA-7402-483B-9B2A-BDB62BEE0588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking", "Coocking\Cooking.csproj", "{2243A747-4C3A-4F63-8710-D3556FE371B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{616123FA-7402-483B-9B2A-BDB62BEE0588}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{616123FA-7402-483B-9B2A-BDB62BEE0588}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{616123FA-7402-483B-9B2A-BDB62BEE0588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2243A747-4C3A-4F63-8710-D3556FE371B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2243A747-4C3A-4F63-8710-D3556FE371B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2243A747-4C3A-4F63-8710-D3556FE371B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2243A747-4C3A-4F63-8710-D3556FE371B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
