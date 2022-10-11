@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericArrayCreator", "Gene
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericScale", "GenericScale\GenericScale.csproj", "{090FF592-FAEA-4F2D-AE46-F3659F5DCBB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericBoxOfString", "GenericBoxOfString\GenericBoxOfString.csproj", "{5C978709-ADDF-47E7-B5BB-BBB0ABB14087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericBoxOfString", "GenericBoxOfString\GenericBoxOfString.csproj", "{5C978709-ADDF-47E7-B5BB-BBB0ABB14087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericBoxOfInteger", "GenericBoxOfInteger\GenericBoxOfInteger.csproj", "{81ED4F47-2AA9-491D-B19B-3EABFBC49AE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5C978709-ADDF-47E7-B5BB-BBB0ABB14087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C978709-ADDF-47E7-B5BB-BBB0ABB14087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C978709-ADDF-47E7-B5BB-BBB0ABB14087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81ED4F47-2AA9-491D-B19B-3EABFBC49AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81ED4F47-2AA9-491D-B19B-3EABFBC49AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81ED4F47-2AA9-491D-B19B-3EABFBC49AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81ED4F47-2AA9-491D-B19B-3EABFBC49AE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
