@@ -112,7 +112,6 @@ namespace Survivor
                 input = Console.ReadLine();
             }
 
-           
             PrintField(field);
             Console.WriteLine($"Collected tokens: {tokensCount}");
             Console.WriteLine($"Opponent's tokens: { opponnentTokensCount}");
