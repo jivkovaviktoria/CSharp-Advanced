@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetRacing", "StreetRacin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling", "Scheduling\Scheduling.csproj", "{D6D8ADBD-7DE0-47F1-B42F-5DD7F288C6CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garden", "Garden\Garden.csproj", "{5A121DF4-E4CF-477D-83A4-2C845A59BA59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRoom", "ClassRoom\ClassRoom.csproj", "{05B5645B-1E53-4EAA-9679-DFB28D171CBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{D6D8ADBD-7DE0-47F1-B42F-5DD7F288C6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6D8ADBD-7DE0-47F1-B42F-5DD7F288C6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6D8ADBD-7DE0-47F1-B42F-5DD7F288C6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A121DF4-E4CF-477D-83A4-2C845A59BA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A121DF4-E4CF-477D-83A4-2C845A59BA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A121DF4-E4CF-477D-83A4-2C845A59BA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A121DF4-E4CF-477D-83A4-2C845A59BA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B5645B-1E53-4EAA-9679-DFB28D171CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B5645B-1E53-4EAA-9679-DFB28D171CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B5645B-1E53-4EAA-9679-DFB28D171CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B5645B-1E53-4EAA-9679-DFB28D171CBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
