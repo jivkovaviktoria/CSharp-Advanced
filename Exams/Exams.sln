@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garden", "Garden\Garden.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRoom", "ClassRoom\ClassRoom.csproj", "{05B5645B-1E53-4EAA-9679-DFB28D171CBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket", "StockMarket\StockMarket.csproj", "{DAA59028-D1C7-4E78-8AED-522B472A38E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{05B5645B-1E53-4EAA-9679-DFB28D171CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05B5645B-1E53-4EAA-9679-DFB28D171CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05B5645B-1E53-4EAA-9679-DFB28D171CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA59028-D1C7-4E78-8AED-522B472A38E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA59028-D1C7-4E78-8AED-522B472A38E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA59028-D1C7-4E78-8AED-522B472A38E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA59028-D1C7-4E78-8AED-522B472A38E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
