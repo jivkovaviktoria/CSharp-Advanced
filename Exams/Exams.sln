@@ -39,15 +39,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayCelebration", "Birt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheBattleOfTheFiveArmies", "TheBattleOfTheFiveArmies\TheBattleOfTheFiveArmies.csproj", "{01BC7ECB-FB12-4AF4-945A-1B5A56CDC6DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetRacing", "StreetRacing\StreetRacing.csproj", "{AC51A8E2-A4CD-40FE-8F9B-E875F5515533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreetRacing", "StreetRacing\StreetRacing.csproj", "{AC51A8E2-A4CD-40FE-8F9B-E875F5515533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling", "Scheduling\Scheduling.csproj", "{D6D8ADBD-7DE0-47F1-B42F-5DD7F288C6CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduling", "Scheduling\Scheduling.csproj", "{D6D8ADBD-7DE0-47F1-B42F-5DD7F288C6CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garden", "Garden\Garden.csproj", "{5A121DF4-E4CF-477D-83A4-2C845A59BA59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Garden", "Garden\Garden.csproj", "{5A121DF4-E4CF-477D-83A4-2C845A59BA59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRoom", "ClassRoom\ClassRoom.csproj", "{05B5645B-1E53-4EAA-9679-DFB28D171CBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassRoom", "ClassRoom\ClassRoom.csproj", "{05B5645B-1E53-4EAA-9679-DFB28D171CBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket", "StockMarket\StockMarket.csproj", "{DAA59028-D1C7-4E78-8AED-522B472A38E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket", "StockMarket\StockMarket.csproj", "{DAA59028-D1C7-4E78-8AED-522B472A38E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodFinder", "FoodFinder\FoodFinder.csproj", "{DD981469-C716-4847-A775-A30D70990646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{DAA59028-D1C7-4E78-8AED-522B472A38E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAA59028-D1C7-4E78-8AED-522B472A38E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAA59028-D1C7-4E78-8AED-522B472A38E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD981469-C716-4847-A775-A30D70990646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD981469-C716-4847-A775-A30D70990646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD981469-C716-4847-A775-A30D70990646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD981469-C716-4847-A775-A30D70990646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
