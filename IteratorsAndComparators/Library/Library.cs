@@ -13,6 +13,6 @@ namespace IteratorsAndComparators
         {
             this.books = new List<Book>(books);
         }
-
     }
 }
+
