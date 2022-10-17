@@ -51,7 +51,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket", "StockMarket\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodFinder", "FoodFinder\FoodFinder.csproj", "{DD981469-C716-4847-A775-A30D70990646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocktailParty", "CocktailParty\CocktailParty.csproj", "{8AB25AEA-2393-46A0-A5FB-A367B41A5FD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CocktailParty", "CocktailParty\CocktailParty.csproj", "{8AB25AEA-2393-46A0-A5FB-A367B41A5FD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperMario", "SuperMario\SuperMario.csproj", "{31A0BE26-4EA4-4120-B66E-89C72D9BC058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerWreaths", "FlowerWreaths\FlowerWreaths.csproj", "{87A25172-04B0-4868-9612-F81D24BF96D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bombs", "Bombs\Bombs.csproj", "{A43C9440-E53F-44F0-BC16-5A771135FB12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +165,18 @@ Global
 		{8AB25AEA-2393-46A0-A5FB-A367B41A5FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB25AEA-2393-46A0-A5FB-A367B41A5FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB25AEA-2393-46A0-A5FB-A367B41A5FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A0BE26-4EA4-4120-B66E-89C72D9BC058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A0BE26-4EA4-4120-B66E-89C72D9BC058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A0BE26-4EA4-4120-B66E-89C72D9BC058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A0BE26-4EA4-4120-B66E-89C72D9BC058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A25172-04B0-4868-9612-F81D24BF96D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A25172-04B0-4868-9612-F81D24BF96D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A25172-04B0-4868-9612-F81D24BF96D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A25172-04B0-4868-9612-F81D24BF96D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43C9440-E53F-44F0-BC16-5A771135FB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43C9440-E53F-44F0-BC16-5A771135FB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43C9440-E53F-44F0-BC16-5A771135FB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43C9440-E53F-44F0-BC16-5A771135FB12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
