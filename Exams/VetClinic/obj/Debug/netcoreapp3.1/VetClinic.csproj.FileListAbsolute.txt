@@ -1,0 +1,14 @@
+D:\Viki\CSharp-Advanced\Exams\VetClinic\bin\Debug\netcoreapp3.1\VetClinic.exe
+D:\Viki\CSharp-Advanced\Exams\VetClinic\bin\Debug\netcoreapp3.1\VetClinic.deps.json
+D:\Viki\CSharp-Advanced\Exams\VetClinic\bin\Debug\netcoreapp3.1\VetClinic.runtimeconfig.json
+D:\Viki\CSharp-Advanced\Exams\VetClinic\bin\Debug\netcoreapp3.1\VetClinic.runtimeconfig.dev.json
+D:\Viki\CSharp-Advanced\Exams\VetClinic\bin\Debug\netcoreapp3.1\VetClinic.dll
+D:\Viki\CSharp-Advanced\Exams\VetClinic\bin\Debug\netcoreapp3.1\VetClinic.pdb
+D:\Viki\CSharp-Advanced\Exams\VetClinic\obj\Debug\netcoreapp3.1\VetClinic.csproj.AssemblyReference.cache
+D:\Viki\CSharp-Advanced\Exams\VetClinic\obj\Debug\netcoreapp3.1\VetClinic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Viki\CSharp-Advanced\Exams\VetClinic\obj\Debug\netcoreapp3.1\VetClinic.AssemblyInfoInputs.cache
+D:\Viki\CSharp-Advanced\Exams\VetClinic\obj\Debug\netcoreapp3.1\VetClinic.AssemblyInfo.cs
+D:\Viki\CSharp-Advanced\Exams\VetClinic\obj\Debug\netcoreapp3.1\VetClinic.csproj.CoreCompileInputs.cache
+D:\Viki\CSharp-Advanced\Exams\VetClinic\obj\Debug\netcoreapp3.1\VetClinic.dll
+D:\Viki\CSharp-Advanced\Exams\VetClinic\obj\Debug\netcoreapp3.1\VetClinic.pdb
+D:\Viki\CSharp-Advanced\Exams\VetClinic\obj\Debug\netcoreapp3.1\VetClinic.genruntimeconfig.cache
