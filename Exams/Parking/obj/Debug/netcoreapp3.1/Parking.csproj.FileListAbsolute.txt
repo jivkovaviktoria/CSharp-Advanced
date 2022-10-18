@@ -1,0 +1,14 @@
+D:\Viki\CSharp-Advanced\Exams\Parking\bin\Debug\netcoreapp3.1\Parking.exe
+D:\Viki\CSharp-Advanced\Exams\Parking\bin\Debug\netcoreapp3.1\Parking.deps.json
+D:\Viki\CSharp-Advanced\Exams\Parking\bin\Debug\netcoreapp3.1\Parking.runtimeconfig.json
+D:\Viki\CSharp-Advanced\Exams\Parking\bin\Debug\netcoreapp3.1\Parking.runtimeconfig.dev.json
+D:\Viki\CSharp-Advanced\Exams\Parking\bin\Debug\netcoreapp3.1\Parking.dll
+D:\Viki\CSharp-Advanced\Exams\Parking\bin\Debug\netcoreapp3.1\Parking.pdb
+D:\Viki\CSharp-Advanced\Exams\Parking\obj\Debug\netcoreapp3.1\Parking.csproj.AssemblyReference.cache
+D:\Viki\CSharp-Advanced\Exams\Parking\obj\Debug\netcoreapp3.1\Parking.GeneratedMSBuildEditorConfig.editorconfig
+D:\Viki\CSharp-Advanced\Exams\Parking\obj\Debug\netcoreapp3.1\Parking.AssemblyInfoInputs.cache
+D:\Viki\CSharp-Advanced\Exams\Parking\obj\Debug\netcoreapp3.1\Parking.AssemblyInfo.cs
+D:\Viki\CSharp-Advanced\Exams\Parking\obj\Debug\netcoreapp3.1\Parking.csproj.CoreCompileInputs.cache
+D:\Viki\CSharp-Advanced\Exams\Parking\obj\Debug\netcoreapp3.1\Parking.dll
+D:\Viki\CSharp-Advanced\Exams\Parking\obj\Debug\netcoreapp3.1\Parking.pdb
+D:\Viki\CSharp-Advanced\Exams\Parking\obj\Debug\netcoreapp3.1\Parking.genruntimeconfig.cache
