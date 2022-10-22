@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackQueue", "StackQueue\StackQueue.csproj", "{024C5B65-84CD-4E6F-A35B-01DD2EA2E91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{5B9E038B-1786-4C02-9FC3-CD238CCF8C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{F88C926F-9CC4-41EE-8802-FBDF4A7B0015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{024C5B65-84CD-4E6F-A35B-01DD2EA2E91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024C5B65-84CD-4E6F-A35B-01DD2EA2E91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024C5B65-84CD-4E6F-A35B-01DD2EA2E91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024C5B65-84CD-4E6F-A35B-01DD2EA2E91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B9E038B-1786-4C02-9FC3-CD238CCF8C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9E038B-1786-4C02-9FC3-CD238CCF8C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9E038B-1786-4C02-9FC3-CD238CCF8C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9E038B-1786-4C02-9FC3-CD238CCF8C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88C926F-9CC4-41EE-8802-FBDF4A7B0015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88C926F-9CC4-41EE-8802-FBDF4A7B0015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88C926F-9CC4-41EE-8802-FBDF4A7B0015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88C926F-9CC4-41EE-8802-FBDF4A7B0015}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
